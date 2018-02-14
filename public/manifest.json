@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Reddit chromeextension",
+  "description": "My reddit chrome extension",
+  "version": "0.0.1",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open reddit"
+  },
+  "icons": {
+    "16": "logo-small.png",
+    "48": "logo-small.png",
+    "128": "logo-small.png"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}

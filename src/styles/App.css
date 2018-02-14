@@ -1,0 +1,45 @@
+.App {
+    width: 400px;
+    word-wrap: break-word;
+}
+
+/* Posts */
+.App .posts .post {
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 5px;
+}
+
+.App .posts .post .head {
+    padding: 5px;
+}
+
+.App .posts .post .head .title {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.App .posts .post .head .link {
+    float: right;
+    cursor: pointer;
+}
+
+.App .posts .post .body .image {
+    border-top: 1px solid #BDBDBD;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+
+.App .posts .post .body .text {
+    background-color: #FAFAFA;
+}
+
+/* Comments */
+.App .comments {
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.App .comments .comment {
+    border-left: 1px solid;
+}

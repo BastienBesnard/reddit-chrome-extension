@@ -1,0 +1,42 @@
+.menu {
+    cursor: pointer;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+  
+.menu ul {
+    list-style:none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+  
+.menu ul li .title {
+    padding: 10px;
+}
+
+.menu ul li .subtitle {
+    padding: 5px 10px;
+}
+  
+.menu ul li.selected,
+.menu ul li.back {
+    background-color: #007bff;
+    color: white;
+}
+  
+.menu ul li:hover:not(.selected):not(.back) {
+    background-color: #F5F5F5;
+}
+  
+.menu ul li ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+  
+.menu ul li:hover ul {
+    display: block;
+    color: black;
+}
